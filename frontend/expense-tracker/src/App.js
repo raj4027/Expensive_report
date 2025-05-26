@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Homepage from "../src/pages/Homepage";
 import ExpensePage from "../src/pages/ExpensePage";
 
-import ExpenseSummary from "../../../src/components/ExpenseSummary"
+//import ExpenseSummary from "../../../src/components/ExpenseSummary"
+import ExpenseSummary from "./components/ExpenseSummary";
 
 function App() {
   return (
