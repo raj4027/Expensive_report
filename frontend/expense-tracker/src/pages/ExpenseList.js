@@ -11,7 +11,7 @@ function ExpenseList() {
     }
     loadExpenses();
   }, []);
-  console.log("Expenses component rendered",expenses);
+
   async function handleDelete(id) {
     await deleteExpense(id);
     setExpenses(expenses.filter((expense) => expense.id !== id));

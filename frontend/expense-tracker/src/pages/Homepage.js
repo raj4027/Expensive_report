@@ -1,5 +1,5 @@
 import React from "react";
-import ExpenseList from "../../../../src/components/ExpenseList";
+import ExpenseList from "./ExpenseList";
 
 function Homepage() {
   return (

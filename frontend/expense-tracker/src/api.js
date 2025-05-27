@@ -2,7 +2,9 @@ const API_BASE_URL = "http://127.0.0.1:8080"; // Backend URL
 
 export async function fetchExpenses() {
   const response = await fetch(`${API_BASE_URL}/expenses`);
+  console.log("API Response:", response);
   return response.json();
+
 }
 
 export async function createExpense(expense) {

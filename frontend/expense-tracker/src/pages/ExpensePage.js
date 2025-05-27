@@ -1,5 +1,6 @@
 import React from "react";
-import ExpenseForm from "./components/ExpenseForm";
+import ExpenseForm from "./ExpenseForm";
+
 
 function ExpensePage() {
   return (
@@ -11,3 +12,5 @@ function ExpensePage() {
 }
 
 export default ExpensePage;
+
+
